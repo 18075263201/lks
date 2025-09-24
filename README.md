@@ -48,11 +48,11 @@ npm run preview
 
 ### GitHub Pages 部署
 
-1. 创建一个GitHub仓库
+1. 已创建GitHub仓库：`https://github.com/18075263201/lks.git`
 2. 将项目推送到GitHub
-3. 修改vite.config.js中的base配置为你的仓库名称：
+3. vite.config.js中的base配置已设置为仓库名称：
    ```javascript
-   base: '/your-repo-name/',
+   base: '/lks/',
    ```
 4. 构建项目：`npm run build`
 5. 部署dist目录到GitHub Pages

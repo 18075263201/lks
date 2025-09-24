@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/', // 默认为根路径，部署到GitHub Pages时可能需要修改为仓库名
+  base: '/lks/', // 设置为GitHub仓库名称，用于GitHub Pages部署
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
